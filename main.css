@@ -49,7 +49,7 @@ nav a:hover {
 h1{
 
 	text-align: center;
-	color:#233237;
+	color:white;
 	font-style: arial;
 }
 
@@ -179,6 +179,7 @@ float: right;
 
  .atei img{
  	width: 50%;
+
  	border-radius: 20%;
  	padding: 10px;
  	display: block;
@@ -193,7 +194,7 @@ float: right;
 	height: 1000px;
 	width: 100%;
 
-	margin-top: 1000px;
+	margin-top: 930px;
 
 	
 	
@@ -392,9 +393,12 @@ float: right;
 
 .two p{
 	position: relative;
-	right: 390px;
-	top:20px;
+	right: 370px;
+	top:70px;
 	font-weight: bold;
+	font-size: 20px;
+	color:#984B43; 
+
 
 }
 
@@ -403,31 +407,149 @@ float: right;
 .three p{
 	position: relative;
 	right: -650px;
-	bottom: -25px;
+	bottom: -55px;
 	font-weight: bold;
+	font-size: 20px;
+	color:#984B43; 
+	 
+
+
 
 }
 
-.four p{
+
+.four{
+
+position: relative;
+	right: -550px;
+	bottom: 10px;
+	font-weight: bold;
+
+
+
+}
+
+
+
+.leah a{
+
+	
 	position: relative;
-	right: -50px;
-	bottom: -10px;
+	right: 540px;
+	bottom: -200px;
 	font-weight: bold;
 
+
+	
+
 }
-
-
 
 
 
 
 hr{
-	border: 1px solid #984B43;
+	border: 3px solid #233237;
 	width: 8%;
+
 	
 
 }
 
+
+
+#contact{
+	
+background-color: white;
+	height: 1000px;
+	width: 100%;
+
+	margin-top: 300px;
+	
+	
+}
+.chupa{
+
+	color: #984B43;
+	font-size: 12px;
+}
+
+
+
+
+
+body {padding-top:20px;}
+
+
+
+
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#002b38;
+}
+.chix{
+    width:900px;
+    margin:250px auto 0;
+    display:flex;
+}
+.chix .box {
+    position:relative;
+    width: 300px;
+    height:100px;
+    box-sizing:border-box;
+    text-align:center;
+    margin:0 10px;
+    background:#00171d;
+    overflow:hidden;
+    border-radius:4px;
+    box-shadow:0 0 0 2px rgba(0,7,10,1);
+}
+.chix .box .icon {
+    width:100%;
+    height:100%;
+    background:#00171d;
+    transition: 0.5s;
+}
+.chix .box .icon .fa {
+    font-size: 4em;
+    line-height:100px;
+    color: #984B43;
+}
+.chix .box:hover .icon {
+    transform:scale(0);
+}
+.chix .box .details {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#233237; 
+    transition:0.5s;
+    transform:scale(2);
+    opacity:0;
+}
+.chix .box:hover .details {
+    transform:scale(1);
+    opacity:1;
+}
+.chix .box .details h3 {
+    margin:0;
+    padding:0;
+    line-height:100px;
+    font-size:24px;
+    color:#fff;
+}
+.chix .box .details:nth-child(2) .details {
+    background:#e91e63;
+}
+.chix .box .details:nth-child(2) .details {
+    background:#607d8b;
+}
 
 
 
