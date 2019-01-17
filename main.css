@@ -1,8 +1,5 @@
 
-   
-
-
-
+  
 
 body{
 
@@ -25,7 +22,10 @@ nav{
 	text-align: center;
 	font-size: 20px;
 	text-transform: uppercase;
-	padding: 20px;
+	/*padding: 20px;*/
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -189,7 +189,7 @@ float: right;
  }
 
 
- #gallary{
+ #gallery{
 	background-color: white;
 	height: 1000px;
 	width: 100%;
@@ -550,6 +550,23 @@ body {
 .chix .box .details:nth-child(2) .details {
     background:#607d8b;
 }
+
+
+.mueni{
+  background-color:#984B43;
+  height: 100px;
+  width: 100%;
+  padding: 40px;
+  font-size: 20px;
+  font font-weight: bold;
+  font-family: serif;
+
+  margin-top: 930px;
+  text-align:center;
+
+
+}
+
 
 
 
