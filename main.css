@@ -1,50 +1,29 @@
 
-  
 
-body{
-
-	background-color: #233237; 
-
-
-}
-
-
-
-
-
-
-nav{
-
-	background-color:#984B43;
-	width: 1500px;
-	height: 80px;
-	margin: 0 auto;
-	text-align: center;
-	font-size: 20px;
-	text-transform: uppercase;
-	/*padding: 20px;*/
-   list-style-type: none;
+body {
   margin: 0;
-  padding: 0;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav a{
-
-	
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    list-style-type: none;
-
+.container-fluid{
+  background-color:#984B43;
 
 
 }
 
-nav a:hover {
-    background-color: #111;
+ul{
+  font-size: 14px;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
 }
+
+
+
+
+
+
+
 
 h1{
 
@@ -56,7 +35,7 @@ h1{
 
 h2{
 
-	text-align: center;
+	text-align: ce;
 	color: #984B43;
 
 	
