@@ -3,12 +3,14 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: rgb(0, 43, 56) 
 }
 
+.row{
+  margin: 0!important;
+}
 .container-fluid{
   background-color:#984B43;
-
-
 }
 
 ul{
@@ -19,19 +21,14 @@ ul{
 }
 
 
-
-
-
-
-
-
-h1{
-
+#home h1{
 	text-align: center;
-	color:white;
+  color:white;
 	font-style: arial;
 }
-
+.item img{
+  max-height: 800px;
+}
 
 h2{
 
@@ -49,19 +46,15 @@ h3{
 
 	
 }
-
-
-
-
 #about{
-	width: 1000px;
-	height: 500px;
-	margin: 0 auto;
-	background-color: white;
+	color:black;
+	padding: 10px;
+  padding-top: 100px; 
+  padding-bottom: 100px; 
+	background-color: #f1f1f1; 
 }
 section.farida
 {
-	/*background-color:#984B43;*/
 	width:50%;
 	float:left;
 	margin-left: 10px;
@@ -76,27 +69,15 @@ section.farida
 section.amina
 
 {
-	/*background-color:#984B43;
-*/	width:40%;
+  
 	float:right;
 	margin-right: 10px;
-	height:90%;
 	margin-top: 20px;
 	padding-right: 0px;
 	text-align: justify;
-
-
-
-
-	}
-
-	
- 
-
-
+  }
+  
 .flask{
-
-
 	float: right;
 	padding: 13px;
 	color: #984B43;
@@ -113,28 +94,9 @@ float: right;
 
 	}
 
-
-
-	
-
-
-
 #home{
-	height: 600px;
 	width: 100%;
-	background: 
 }
-
-#about{
-	height: 600px;
-	width: 100%;
-	color:black;
-	padding: 10px;
-	margin: 0 auto;
-}
-
-
-
 
 #four{
 
@@ -154,11 +116,8 @@ float: right;
 
  }
 
-
-
  .atei img{
  	width: 50%;
-
  	border-radius: 20%;
  	padding: 10px;
  	display: block;
@@ -170,20 +129,15 @@ float: right;
 
  #gallery{
 	background-color: white;
-	height: 1000px;
 	width: 100%;
+  padding-bottom: 80px; 
+	padding-top: 80px;
 
-	margin-top: 930px;
-
-	
-	
 	
 }
 
 
 .ivy img{
-
-
   width: 100%;
   height: 100%;
   float: left;
@@ -273,11 +227,6 @@ float: right;
   transition-delay: 0.3s;
 }
 
-
-
-
-
-
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -307,6 +256,7 @@ float: right;
 
 .hovereffect img {
   display: block;
+  min-height: 219px;
   position: relative;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -368,112 +318,68 @@ float: right;
   transition-delay: 0.3s;
 }
 
-
-
 .two p{
 	position: relative;
-	right: 370px;
-	top:70px;
 	font-weight: bold;
 	font-size: 20px;
 	color:#984B43; 
 
 
 }
-
+ .two{
+   margin-top: 50px;
+ }
 
 
 .three p{
 	position: relative;
-	right: -650px;
-	bottom: -55px;
 	font-weight: bold;
 	font-size: 20px;
 	color:#984B43; 
-	 
-
-
-
 }
 
 
 .four{
 
 position: relative;
-	right: -550px;
 	bottom: 10px;
 	font-weight: bold;
-
-
-
 }
-
-
 
 .leah a{
-
-	
 	position: relative;
-	right: 540px;
-	bottom: -200px;
 	font-weight: bold;
-
-
-	
-
 }
-
-
 
 
 hr{
 	border: 3px solid #233237;
 	width: 8%;
 
-	
-
 }
 
 
-
-#contact{
-	
-background-color: white;
-	height: 1000px;
+#contact{ 
+  background-color: #f1f1f1;
 	width: 100%;
-
-	margin-top: 300px;
+  padding-bottom: 100px;
+  padding-top: 100px; 
 	
 	
 }
+.well{
+  background-color: #fff !important; 
+}
+
 .chupa{
-
 	color: #984B43;
-	font-size: 12px;
+  font-size: 12px;
+  padding-bottom: 100px; 
 }
 
-
-
-
-
-body {padding-top:20px;}
-
-
-
-
-
-
-
-body {
-    margin:0;
-    padding:0;
-    font-family:sans-serif;
-    background:#002b38;
-}
 .chix{
-    width:900px;
-    margin:250px auto 0;
     display:flex;
+    justify-content:center;
 }
 .chix .box {
     position:relative;
@@ -530,19 +436,16 @@ body {
     background:#607d8b;
 }
 
-
 .mueni{
   background-color:#984B43;
-  height: 100px;
+  height: 80px; 
   width: 100%;
-  padding: 40px;
+  color:#fff; 
+  padding-top: 20px;
   font-size: 20px;
-  font font-weight: bold;
+  font-weight: bold;
   font-family: serif;
-
-  margin-top: 930px;
   text-align:center;
-
 
 }
 
