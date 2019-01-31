@@ -354,10 +354,10 @@ position: relative;
 
 hr{
 	border: 3px solid #233237;
-	width: 8%;
+  width: 8%;
+  margin-top: -11px !important;
 
 }
-
 
 #contact{ 
   background-color: #f1f1f1;
