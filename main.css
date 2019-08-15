@@ -3,14 +3,14 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #002b38; 
+  background: #2D283E; 
 }
 
 .row{
   margin: 0!important;
 }
 .container-fluid{
-  background-color:#984B43;
+  background-color:#802BB1/*#984B43*/;
   padding: 10px;
 }
 
@@ -31,9 +31,9 @@ ul{
   color: #002b38 !important;
 }
 
-#home h1{
+/*#home*/ h1{
 	text-align: center;
-  color:white;
+  color:/*white*/ #802BB1;
 	font-style: arial;
 }
 .item img{
@@ -42,8 +42,8 @@ ul{
 
 h2{
 
-	text-align: ce;
-	color: #984B43;
+	text-align: center;
+	color:/* #802BB1;*/white;
 
 	
 }
@@ -56,12 +56,23 @@ h3{
 
 	
 }
+
+h4{
+
+ 
+  color:#2D283E ;
+  text-align: center;
+
+  
+}
+
+
 #about{
-	color:black;
+	color:white;
 	padding: 10px;
   padding-top: 100px; 
   padding-bottom: 100px; 
-	background-color: #f1f1f1; 
+	background-color:white /*#D1D7E0*/; 
 }
 section.farida
 {
@@ -90,7 +101,7 @@ section.amina
 .flask{
 	float: right;
 	padding: 13px;
-	color: #984B43;
+	color: #2D283E;
 	text-align: justify;
 }
 	
@@ -98,7 +109,7 @@ section.amina
 	.flow{
 float: right;
 	padding: 13px;
-	color: #984B43;
+	color: #2D283E;
 	text-align: justify;
 		
 
@@ -332,7 +343,7 @@ float: right;
 	position: relative;
 	font-weight: bold;
 	font-size: 20px;
-	color:#984B43; 
+	color: #802BB1; 
 
 
 }
@@ -345,7 +356,7 @@ float: right;
 	position: relative;
 	font-weight: bold;
 	font-size: 20px;
-	color:#984B43; 
+	color:#802BB1; 
 }
 
 
@@ -363,9 +374,10 @@ position: relative;
 
 
 hr{
-	border: 3px solid #233237;
+	border: 3px solid  #2D283E;
   width: 8%;
   margin-top: -11px !important;
+
 
 }
 
@@ -398,7 +410,7 @@ hr{
     box-sizing:border-box;
     text-align:center;
     margin:0 10px;
-    background:#00171d;
+    background:#2D283E;
     overflow:hidden;
     border-radius:4px;
     box-shadow:0 0 0 2px rgba(0,7,10,1);
@@ -412,7 +424,7 @@ hr{
 .chix .box .icon .fa {
     font-size: 4em;
     line-height:100px;
-    color: #984B43;
+    color: #802BB1;
 }
 .chix .box:hover .icon {
     transform:scale(0);
@@ -437,7 +449,7 @@ hr{
     padding:0;
     line-height:100px;
     font-size:24px;
-    color:#fff;
+    color:#802BB1;
 }
 .chix .box .details:nth-child(2) .details {
     background:#e91e63;
@@ -447,7 +459,7 @@ hr{
 }
 
 .mueni{
-  background-color:#984B43;
+  background-color:#802BB1;
   height: 80px; 
   width: 100%;
   color:#fff; 
