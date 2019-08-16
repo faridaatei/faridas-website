@@ -74,6 +74,8 @@ h4{
   padding-bottom: 100px; 
 	background-color:white /*#D1D7E0*/; 
 }
+
+/
 section.farida
 {
 	width:50%;
@@ -394,7 +396,7 @@ hr{
 }
 
 .chupa{
-	color: #984B43;
+	color: #802BB1;
   font-size: 12px;
   padding-bottom: 100px; 
 }
@@ -413,7 +415,7 @@ hr{
     background:#2D283E;
     overflow:hidden;
     border-radius:4px;
-    box-shadow:0 0 0 2px rgba(0,7,10,1);
+    box-shadow:0 0 0 2px #802BB1;;
 }
 .chix .box .icon {
     width:100%;
