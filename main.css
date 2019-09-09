@@ -167,10 +167,14 @@ float: right;
  	border-radius: 20%;
  	padding: 10px;
  	display: block;
-    margin-left: auto;
+  margin-left: auto;
     margin-right: auto;
 
  }
+
+ 
+
+
 
 
  #gallery{
@@ -495,6 +499,35 @@ hr{
   text-align:center;
 
 }
+
+/*styling the about page*/
+
+.key img{
+ display:block;
+  margin-left: 10px;
+ 
+ 
+}
+/*.mum{
+  color: white;
+  float: right;
+  margin-top: -650px;
+}
+*/
+
+.mum{
+  color: white;
+  float: right;
+  margin-left: 500px;
+  margin-top: -650px;
+}
+
+
+
+
+  
+
+
 
 
 
