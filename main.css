@@ -12,6 +12,11 @@ body {
   
 
 }
+.particles-js{
+  background-color: blue;
+  width:  100%;
+  height: 50%;
+}
 .container-fluid{
   background-color:#802BB1/*#984B43*/;
   padding: 10px;
@@ -521,6 +526,22 @@ hr{
   margin-left: 500px;
   margin-top: -650px;
 }
+
+
+.a{
+  width: 62%;
+  height: 800px;
+  background-color: blue;
+  margin-left: -18px;
+   margin-top: -2px;
+}
+
+/*.tbn img{
+   width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 30px;
+}*/
 
 
 
